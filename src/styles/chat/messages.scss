@@ -1,0 +1,23 @@
+.messages {
+    margin: 1em 0;
+    height: 20em;
+    border: 1px solid black;
+    background-color: white;
+    width: 90%;
+    margin: 1em auto;
+
+    .message {
+        display: flex;
+        justify-content: initial;
+        align-items: center;
+        padding-left: 10px;
+
+        .username {
+            text-decoration: underline;
+        }
+
+        .message-text {
+            margin-left: .5em;
+        }
+    }
+}

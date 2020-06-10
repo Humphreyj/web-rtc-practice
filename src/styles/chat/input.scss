@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    input { 
+        width: 80%;
+        margin: 0 auto;
+        height: 2em;
+        
+    }
+
+    button {
+        width: 50%;
+        height: 2em;
+        background-color: dodgerblue;
+        color: white;
+        text-shadow: 2px 0px 0px black;
+        font-weight: bold;
+        font-size: 1.3em;
+        margin: 1em auto;
+    }
+}

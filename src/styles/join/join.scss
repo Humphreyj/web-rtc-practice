@@ -1,0 +1,43 @@
+.join-outer-container {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .join-inner-container {
+        background-color: black;
+        height: 30em;
+        width: 30em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .heading {
+            color: white;
+            text-align: center;
+            margin-top: 2em;
+        }
+
+        .join-inputs {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .join-input {
+                margin-top:  1em;
+            }
+
+            .button {
+                margin-top: 1em;
+            }
+        }
+
+
+    }
+
+}
